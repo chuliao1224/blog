@@ -1,0 +1,19 @@
+<div id="main">
+  <div class="container-fluid">
+    <div class="row">
+      <header id="mobile-header" class="mobile-header"> 
+        <span><i class="fa fa-bars"></i></span>
+      </header>
+      <div class="col-sm-3 position-fixed flex-grow-1">
+        <div class="ashiish-sidebar">
+          <router-outlet name="header"></router-outlet>
+        </div>
+      </div>
+      <div class="col offset-3">
+        <div class="ashiish-section">
+          <router-outlet></router-outlet>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

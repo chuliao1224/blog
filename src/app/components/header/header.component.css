@@ -1,0 +1,25 @@
+.header-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.wecome-blog {
+  font-size: 24px;
+  margin-left: 50px;
+}
+
+.wecome-menus {
+  font-size: 16px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.menu-item {
+  width: 120px;
+  text-align: center;
+}
